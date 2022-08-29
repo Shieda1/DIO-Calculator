@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIO Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="DIORadio" name="variables" checked>
+  <label for="DIORadio">DIO</label>
+
+  <input type="radio" id="startinginventoryRadio" name="variables">
+  <label for="startinginventoryRadio">Starting inventory</label>
+
+  <input type="radio" id="finalinventoryRadio" name="variables">
+  <label for="finalinventoryRadio">Final inventory</label>
+
+  <input type="radio" id="costofgoodssoldRadio" name="variables">
+  <label for="costofgoodssoldRadio">Cost of goods sold</label>
+
+  <input type="radio" id="daysinaccountingperiodRadio" name="variables">
+  <label for="daysinaccountingperiodRadio">Days in accounting period</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Starting inventory</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Final inventory</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Cost of goods sold</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">Days in accounting period</label>
+  <input type="number" id="v4"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
